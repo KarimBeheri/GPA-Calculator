@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="false"
+    android:visibility="visible">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="339dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top|bottom|center"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    style="ToggleButtonWithIconOnly"
+                    android:layout_width="242dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2257BF"
+                    android:drawableTint="#CA1B1B"
+                    android:foregroundTint="#D52B2B"
+                    android:shadowColor="#B61C1C"
+                    android:text="Semester 1"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp"
+                    app:strokeColor="#DF0808" />
+
+                <Button
+                    android:id="@+id/bttt"
+                    style="ToggleButtonWithIconOnly"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#2257BF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="150dp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#DCDFE3"
+                    android:foregroundGravity="fill_horizontal|clip_horizontal|center|fill_vertical|clip_vertical"
+                    android:onClick="go1"
+                    app:cornerRadius="50dp"
+                    app:icon="@drawable/zx"
+                    app:iconTint="#0B0A0A" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="242dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2257BF"
+                    android:text="Semester 2"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#2257BF"
+                    android:text="0.0"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/button2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#DCDFE3"
+                    android:foregroundGravity="fill_horizontal|clip_horizontal|center|fill_vertical|clip_vertical"
+                    android:onClick="go2"
+                    app:cornerRadius="50dp"
+                    app:icon="@drawable/zx"
+                    app:iconTint="#000000" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="242dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2257BF"
+                    android:text="Semester 3"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#2257BF"
+                    android:text="0.0"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/button33"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#DCDFE3"
+                    android:foregroundGravity="fill_horizontal|clip_horizontal|center|fill_vertical|clip_vertical"
+                    android:onClick="go3"
+                    app:cornerRadius="50dp"
+                    app:icon="@drawable/zx"
+                    app:iconTint="#000000" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="242dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2257BF"
+                    android:text="Semester 4"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#2257BF"
+                    android:text="0.0"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/button4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#DCDFE3"
+                    android:foregroundGravity="fill_horizontal|clip_horizontal|center|fill_vertical|clip_vertical"
+                    android:onClick="go4"
+                    app:cornerRadius="50dp"
+                    app:icon="@drawable/zx"
+                    app:iconTint="#000000" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="242dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2257BF"
+                    android:text="Semester 5"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#2257BF"
+                    android:text="0.0"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/button5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#DCDFE3"
+                    android:foregroundGravity="fill_horizontal|clip_horizontal|center|fill_vertical|clip_vertical"
+                    android:onClick="go5"
+                    app:cornerRadius="50dp"
+                    app:icon="@drawable/zx"
+                    app:iconTint="#000000" />
+
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="242dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2257BF"
+                    android:text="Semester 6"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#2257BF"
+                    android:text="0.0"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/button6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#DCDFE3"
+                    android:foregroundGravity="fill_horizontal|clip_horizontal|center|fill_vertical|clip_vertical"
+                    android:onClick="go6"
+                    app:cornerRadius="50dp"
+                    app:icon="@drawable/zx"
+                    app:iconTint="#000000" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+
+                    android:layout_width="242dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2257BF"
+                    android:text="Semester 7"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#2257BF"
+                    android:text="0.0"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/button7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#DCDFE3"
+                    android:foregroundGravity="fill_horizontal|clip_horizontal|center|fill_vertical|clip_vertical"
+                    android:onClick="go7"
+                    app:cornerRadius="50dp"
+                    app:icon="@drawable/zx"
+                    app:iconTint="#000000" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    style="ToggleButtonWithIconOnly"
+                    android:layout_width="242dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2257BF"
+                    android:text="Semester 8"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="40dp" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="#2257BF"
+                    android:text="0.0"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/button8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#DCDFE3"
+                    android:foregroundGravity="fill_horizontal|clip_horizontal|center|fill_vertical|clip_vertical"
+                    android:onClick="go8"
+                    app:cornerRadius="50dp"
+                    app:icon="@drawable/zx"
+                    app:iconTint="#000000" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:alpha=".5"
+        app:srcCompat="@drawable/wwqw" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:alpha=".5"
+        app:srcCompat="@drawable/wwqwfed"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:alpha=".6"
+        android:focusableInTouchMode="false"
+        android:rotation="360"
+        android:rotationX="360"
+        android:rotationY="360"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:srcCompat="@drawable/pngegg__4_"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>

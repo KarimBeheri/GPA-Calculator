@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">GPAOMETER</string>
+    <string name="details">
+            Grade     Scale
+             A+        4.0
+             A         4.0
+             A-        3.7
+             B+        3.3
+             B         3.0
+             B-        2.7
+             C+        2.3
+             C         2.0
+             C-        1.7
+             D+        1.3
+             D         1.0
+             D-        0.7
+             F         0.0
+    </string>
+    <string-array name="grades">
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="credits">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+    <string-array name="semesters">
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+        <item>Semester 3</item>
+        <item>Semester 4</item>
+        <item>Semester 5</item>
+        <item>Semester 6</item>
+        <item>Semester 7</item>
+        <item>Semester 8</item>
+    </string-array>
+</resources>
